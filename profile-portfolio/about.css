@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Glitch&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
+
+
+.about-me {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100vh;
+    overflow: auto;
+    background-image: url(images/row-2-column-1.jpg);
+    background-size: cover;
+    background-position: bottom;
+}
+
+.container-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+
+
+/* TITULO */
+
+.about-title {
+    display: flex;
+    justify-content: center;
+    background-color: inherit;
+    font-family: 'Rubik Glitch';
+    font-size: 50px;
+    text-decoration: none;
+    font-weight: lighter;
+    font-family: 'Rubik Glitch';
+    color: rgb(255, 255, 255);
+    text-shadow: 
+        0.1em 0 0 rgba(39, 86, 160, 0.75),
+        0 -.05em 0 rgba(255, 25, 0, 0.628),
+        0.1em 0 0 rgba(7, 254, 123, 0.985);
+    letter-spacing: 20px;
+    animation-name: moveDown;
+    animation-duration: 3s;
+    /* overflow: auto; ???????? */
+}
+
+.container-about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.black-hole {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    height: 25rem;
+    width: 25rem;
+    background-color: inherit;
+    border-radius: 50%;
+    color: #CFBBB2;
+    animation-name: moveUp;
+    animation-duration: 5s;
+    perspective: 1000rem;
+}
+
+.black-hole {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    height: 25rem;
+    width: 25rem;
+    background-color: inherit;
+    border-radius: 50%;
+    color: #ffffff;
+    animation-name: moveUp;
+    animation-duration: 5s;
+    perspective: 1000rem;
+}
+
+.black-hole-side {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    height: 25rem;
+    width: 25rem;
+    border-radius: 50%;
+    transition: all 0.3s ease-in-out;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    backface-visibility: hidden;
+}
+
+.black-hole-side--front {
+    background-color: rgba(173, 237, 240, 0.125);
+}
+
+.black-hole-side--back {
+    display: flex;
+    transform: rotateY(180deg);
+    background-image: url("images/tori-transparent.png");
+    background-color: rgba(173, 237, 240, 0.076);;
+    background-position: center;
+    background-size: cover;
+}
+
+.black-hole:hover .black-hole-side--front {
+    transform: rotateY(180deg);
+}
+
+.black-hole:hover .black-hole-side--back {
+    transform: rotateY(0);
+}
+
+
+.description-about {
+    font-family: 'Black Ops One';
+    text-decoration: none;
+    font-size: 0.9rem;
+    letter-spacing: 0.3rem;
+}
+
+#emojis {
+    letter-spacing: 1rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .container-about {
+    /* background-image: url('images/areia.png'); */
+    /* background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    border: 2px solid yellow;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: auto;
+}
+
+.about-glitch {
+    font-size: xx-small;
+} */

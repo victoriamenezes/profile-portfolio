@@ -22,7 +22,7 @@
 
 
 
-/* TITULO */
+/* TITTLE */
 
 .about-title {
     display: flex;
@@ -129,39 +129,12 @@
     letter-spacing: 0.3rem;
 }
 
+h2, h3 {
+    margin: 1.2em;
+    margin-left: 3.2em;
+}
+
 #emojis {
     letter-spacing: 1rem;
+     margin-left: 3.2rem;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* .container-about {
-    /* background-image: url('images/areia.png'); */
-    /* background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    border: 2px solid yellow;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    overflow: auto;
-}
-
-.about-glitch {
-    font-size: xx-small;
-} */
